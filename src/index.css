@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  background: url(./assets/images/bg.png) repeat;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: local('Heebo'), url(./assets/fonts/Heebo/Heebo-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(./assets/fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+}
