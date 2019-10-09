@@ -1,10 +1,10 @@
-import React, {useState, useCallback} from 'react';
-import Images from '../assets/images';
-import {IconsPerExtension} from '../config';
+import React, {useCallback, useState} from 'react';
 import DragNDropZone from "./DragNDropZone";
+import {mockFiles} from "../config/mockFiles";
+import FileListItem from "./FileListItem";
 
 const Form = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('ruddy.cream@gmail.com');
   const [files, setFiles] = useState([]);
 
   const onDrop = useCallback(acceptedFiles => {
@@ -17,32 +17,12 @@ const Form = () => {
       <h1 className="form-header">{'Transfer files'}</h1>
       <div>
         <p className="form-email-label">{'Send files to this email:'}</p>
-        <input className="form-email-input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <input className="form-email-input" type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
       </div>
       <ul>
-        {
-          files.map(file => {
-            const icon = IconsPerExtension[file.type];
-
-            return (
-              <li key={file.lastModified}>
-                <div className="files-list">
-                  <div className="files-list-type-icon-and-name">
-                    {
-                      icon && <img src={icon} alt="icon"/>
-                    }
-                    <p className="files-list-file-name">{file.name}</p>
-                  </div>
-                  <img src={Images.checkIcon} alt="check"/>
-                </div>
-              </li>
-            )
-          })
-        }
+        {mockFiles.map((file, index) => <FileListItem file={file} index={index}/>)}
       </ul>
-      <div>
-        <DragNDropZone onDrop={onDrop}/>
-      </div>
+      <DragNDropZone onDrop={onDrop}/>
       <button type="submit" className="submit-btn">{'Send'}</button>
     </form>
   )
