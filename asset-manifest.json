@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/retently-task/static/css/main.43feb737.chunk.css",
+    "main.css": "/retently-task/static/css/main.1a6b7d88.chunk.css",
     "main.js": "/retently-task/static/js/main.de9fa091.chunk.js",
     "main.js.map": "/retently-task/static/js/main.de9fa091.chunk.js.map",
     "runtime-main.js": "/retently-task/static/js/runtime-main.00eacd91.js",
@@ -8,9 +8,9 @@
     "static/js/2.3940c153.chunk.js": "/retently-task/static/js/2.3940c153.chunk.js",
     "static/js/2.3940c153.chunk.js.map": "/retently-task/static/js/2.3940c153.chunk.js.map",
     "index.html": "/retently-task/index.html",
-    "precache-manifest.3db7e3b6a9de3c4c4dfe741c8f5b1322.js": "/retently-task/precache-manifest.3db7e3b6a9de3c4c4dfe741c8f5b1322.js",
+    "precache-manifest.fa9525422d102723f5349d6fe024cf4a.js": "/retently-task/precache-manifest.fa9525422d102723f5349d6fe024cf4a.js",
     "service-worker.js": "/retently-task/service-worker.js",
-    "static/css/main.43feb737.chunk.css.map": "/retently-task/static/css/main.43feb737.chunk.css.map",
+    "static/css/main.1a6b7d88.chunk.css.map": "/retently-task/static/css/main.1a6b7d88.chunk.css.map",
     "static/media/index.css": "/retently-task/static/media/bg.a05f1fb3.png",
     "static/media/check.svg": "/retently-task/static/media/check.b548d919.svg",
     "static/media/cloud_upload.svg": "/retently-task/static/media/cloud_upload.63e85282.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.00eacd91.js",
     "static/js/2.3940c153.chunk.js",
-    "static/css/main.43feb737.chunk.css",
+    "static/css/main.1a6b7d88.chunk.css",
     "static/js/main.de9fa091.chunk.js"
   ]
 }
