@@ -151,6 +151,7 @@
 }
 
 .submit-btn {
+  border: none;
   padding: 0;
   background-color: var(--main-color);
   color: #fff;
