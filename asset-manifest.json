@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/retently-task/static/css/main.5dd45386.chunk.css",
-    "main.js": "/retently-task/static/js/main.9fe3c90b.chunk.js",
-    "main.js.map": "/retently-task/static/js/main.9fe3c90b.chunk.js.map",
+    "main.css": "/retently-task/static/css/main.89d17d40.chunk.css",
+    "main.js": "/retently-task/static/js/main.de9fa091.chunk.js",
+    "main.js.map": "/retently-task/static/js/main.de9fa091.chunk.js.map",
     "runtime-main.js": "/retently-task/static/js/runtime-main.00eacd91.js",
     "runtime-main.js.map": "/retently-task/static/js/runtime-main.00eacd91.js.map",
     "static/js/2.3940c153.chunk.js": "/retently-task/static/js/2.3940c153.chunk.js",
     "static/js/2.3940c153.chunk.js.map": "/retently-task/static/js/2.3940c153.chunk.js.map",
     "index.html": "/retently-task/index.html",
-    "precache-manifest.03995e19d255ad1336b7fb8d2a124c8e.js": "/retently-task/precache-manifest.03995e19d255ad1336b7fb8d2a124c8e.js",
+    "precache-manifest.83c45cacb2bc1248e08de5bd971d6005.js": "/retently-task/precache-manifest.83c45cacb2bc1248e08de5bd971d6005.js",
     "service-worker.js": "/retently-task/service-worker.js",
-    "static/css/main.5dd45386.chunk.css.map": "/retently-task/static/css/main.5dd45386.chunk.css.map",
+    "static/css/main.89d17d40.chunk.css.map": "/retently-task/static/css/main.89d17d40.chunk.css.map",
     "static/media/index.css": "/retently-task/static/media/bg.a05f1fb3.png",
     "static/media/check.svg": "/retently-task/static/media/check.b548d919.svg",
     "static/media/cloud_upload.svg": "/retently-task/static/media/cloud_upload.63e85282.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.00eacd91.js",
     "static/js/2.3940c153.chunk.js",
-    "static/css/main.5dd45386.chunk.css",
-    "static/js/main.9fe3c90b.chunk.js"
+    "static/css/main.89d17d40.chunk.css",
+    "static/js/main.de9fa091.chunk.js"
   ]
 }
