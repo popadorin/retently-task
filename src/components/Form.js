@@ -19,7 +19,7 @@ const Form = () => {
         <p className="form-email-label">{'Send files to this email:'}</p>
         <input className="form-email-input" type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
       </div>
-      <ul>
+      <ul className="files-list">
         {mockFiles.map((file, index) => <FileListItem file={file} index={index}/>)}
       </ul>
       <DragNDropZone onDrop={onDrop}/>
