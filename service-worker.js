@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/retently-task/precache-manifest.671c08e64cdd09e421a76acf1c5f3555.js"
+  "/retently-task/precache-manifest.3db7e3b6a9de3c4c4dfe741c8f5b1322.js"
 );
 
 self.addEventListener('message', (event) => {

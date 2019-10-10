@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "725be4601647de664f47f0a1449ca2a3",
+    "revision": "2ec108ee495c25a00f7201cfb9e83c3c",
     "url": "/retently-task/index.html"
   },
   {
-    "revision": "f187c0114356b9b4f453",
-    "url": "/retently-task/static/css/main.30f1538f.chunk.css"
+    "revision": "326b72b12f90d6eb365e",
+    "url": "/retently-task/static/css/main.43feb737.chunk.css"
   },
   {
     "revision": "df7205a9e74a1cc62f9b",
     "url": "/retently-task/static/js/2.3940c153.chunk.js"
   },
   {
-    "revision": "f187c0114356b9b4f453",
+    "revision": "326b72b12f90d6eb365e",
     "url": "/retently-task/static/js/main.de9fa091.chunk.js"
   },
   {
