@@ -14,8 +14,8 @@ const Form = () => {
 
   return (
     <form className="form">
-      <h1 className="form-header">{'Transfer files'}</h1>
       <div>
+        <h1 className="form-header">{'Transfer files'}</h1>
         <p className="form-email-label">{'Send files to this email:'}</p>
         <input className="form-email-input" type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
       </div>
